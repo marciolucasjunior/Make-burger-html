@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Make Burger</title>
+</head>
+<body>
+    <header>
+                  <nav class="nav">
+                      <img id="logo" src="imagens/logo.png"  alt="burger">
+                      <a href="index.html"><p>Fazer Pedidos</p></a>
+                      <a href="pag002.html" rel="next"><p>Pedidos</p></a>
+                  </nav>
+    </header> <!--cabeçalho-->
+   
+       
+        <div id="image">
+            <h1>Make Your Burger</h1>
+        </div>
+
+    <section >
+        <h2>Monte o seu burger:</h2>
+        
+
+        <form action="">
+            <div id="verificado"></div>
+            <label id="teste" for="">Nome do cliente:</label><br>
+            <input id="caixa1" type="text" name=""  placeholder="Digite o seu nome"><br>
+
+            <label for="">Escolha o pão:</label><br>
+            <select  name="" id="paos" >
+                <option value="Integral">Integral</option>
+                <option value="Pão frances">Pão frances</option>
+                <option value="Italiano Branco">Italiano Branco</option>
+                <option value="Parmesão e Orégano">Parmesão e Orégano</option> 
+            </select><br>
+
+            <label for="">Escolha a carne do seu Burger:</label><br>
+            <select name="" id="carnes">
+                <option value="Maminha">Maminha</option>
+                <option value="Alcatra">Alcatra</option>
+                <option value="Filé">Filé</option>
+                <option value="Picanha">Picanha</option>
+            </select><br>
+
+               <label for="">Escolha os opcionais:</label><br>
+                <div class="container">
+                    <ul>
+                        <li><input type="checkbox"  class="check" value="bacon"> bacon</li>
+                        <li><input type="checkbox"  class="check" value="Salame"> Salame</li>
+                        <li><input type="checkbox"  class="check" value="Cebola roxa"> Cebola roxa</li>
+                        <li><input type="checkbox"  class="check" value="Chedar"> Chedar</li>
+                        <li><input type="checkbox"  class="check" value="Tomate"> Tomate</li>
+                        <li><input type="checkbox"  class="check" value="Pepino"> Pepino</li>
+                    </ul>
+                </div>
+                <input id="pegar" class="submit" type="submit" value="Criar meu Burguer!">
+        </form>
+      </section>
+
+        <footer><p>Make Your Burger 2022;</p></footer>
+
+       
+      <script src="programa.js" ></script>
+</body>
+</html>

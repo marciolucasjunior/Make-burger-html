@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    background-color: #222;
+    border-bottom: 4px solid #111;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav p {    
+    color:  #FCBA03;
+    margin-right: 15px;
+}
+
+.nav p:hover {
+    color: white;
+}
+.nav a {
+   
+   text-decoration: none;
+}
+
+#logo{
+   
+    height: 100px;
+    margin: auto;
+    margin-left: 0;
+}
+
+#image {
+    display: flex;
+    background-image: url(imagens/burger.jpg);
+    background-size: cover;
+    background-position:  0 -250px;
+    background-repeat: no-repeat;
+    height: 500px;
+    align-items: center;
+}
+
+h1 {
+    background-color: rgba(17, 17, 17, 0.644);
+    color: white;
+    font-size: 3.5em;
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    padding: 30px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    border-left: 4px solid yellow;
+    padding: 5px  10px;
+}
+
+#caixa1 {
+    padding: 5px;
+    width: 300px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+}
+
+#paos {
+    width: 312px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#carnes {
+    width: 312px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+input {
+    margin-bottom: 20px;
+}
+
+.submit {
+    font-size: 1em;
+    background-color: #222;
+    color:  #FCBA03;
+    width: 250px;
+    padding: 10px;
+    margin: 55px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    color: white;
+}
+ul  {
+    columns: 3;
+    list-style: none;
+}
+
+footer {
+    border-top: 4px solid #111;
+    color:  #FCBA03;
+    background-color: #222;
+    text-align: center;
+    padding: 80px;
+}
+
+#verificado p {
+    background-color: rgb(0, 255, 221);
+    padding: 14px;
+    color: rgb(0, 0, 161);
+  
+    
+}
